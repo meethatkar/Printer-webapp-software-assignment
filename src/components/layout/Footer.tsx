@@ -12,7 +12,7 @@ import Link from 'next/link';
 export const Footer: React.FC = () => {
   return (
     <footer className="w-full bg-[#18181B] text-zinc-400 border-t border-zinc-800 py-12 mt-auto">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 grid grid-cols-1 md:grid-cols-4 gap-8">
+      <div className="max-w-[1900px] mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-4 gap-8">
         <div>
           <h4 className="text-white font-bold tracking-tight text-base mb-3">PRINTPLATFORM</h4>
           <p className="text-xs text-zinc-400 leading-relaxed">

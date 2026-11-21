@@ -108,7 +108,7 @@ export default function StorefrontPage() {
       </section>
 
       {/* 6 Equal-Weight Product Division Tiles */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6">
+      <section className="max-w-[1900px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-baseline justify-between mb-8 pb-3 border-b border-zinc-200">
           <div>
             <h2 className="text-xl sm:text-2xl font-bold text-zinc-900 tracking-tight">
@@ -125,7 +125,7 @@ export default function StorefrontPage() {
       </section>
 
       {/* Live Work Gallery */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6">
+      <section className="max-w-[1900px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-baseline justify-between mb-8 pb-3 border-b border-zinc-200">
           <div>
             <h2 className="text-xl sm:text-2xl font-bold text-zinc-900 tracking-tight">

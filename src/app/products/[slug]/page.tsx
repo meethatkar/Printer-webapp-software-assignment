@@ -11,7 +11,6 @@
 import React, { useEffect, useState, use } from 'react';
 import { useRouter } from 'next/navigation';
 
-export const dynamic = 'force-dynamic';
 import { useCatalogue } from '../../../hooks/useCatalogue';
 import { useDesigner } from '../../../hooks/useDesigner';
 import { useOrders } from '../../../hooks/useOrders';
@@ -131,7 +130,7 @@ export default function ProductDetailPage({ params }: { params: Promise<{ slug: 
   };
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 py-8 sm:py-12 space-y-8">
+    <div className="max-w-[1900px] mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 space-y-8">
       {/* Breadcrumb / Title */}
       <div className="border-b border-zinc-200 pb-4">
         <h1 className="text-2xl font-bold tracking-tight text-zinc-900">
